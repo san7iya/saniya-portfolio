@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saniya Goyal — Software Engineer</title>
+    <meta name="description" content="Saniya Goyal — Software engineer building full-stack systems, AI-powered applications, and cloud-native infrastructure." />
+    <meta name="author" content="Saniya Goyal" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Saniya Goyal — Software Engineer" />
+    <meta property="og:description" content="Software engineer building full-stack systems, AI-powered applications, and cloud-native infrastructure." />
+    <link rel="canonical" href="https://saniyagoyal.dev" />
+
+    <!-- Fonts: Poppins + JetBrains Mono + Instrument Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- ====== NAV ====== -->
+    <nav class="nav" id="nav">
+        <div class="nav__inner">
+            <a href="#" class="nav__logo">
+                <span class="nav__logo-dot"></span>
+                <span class="nav__logo-text">SG</span>
+            </a>
+            <div class="nav__links">
+                <a href="#projects" class="nav__link">Projects</a>
+                <a href="#about" class="nav__link">About</a>
+                <a href="#experience" class="nav__link">Experience</a>
+                <a href="#skills" class="nav__link">Skills</a>
+                <a href="#achievements" class="nav__link">Achievements</a>
+                <a href="#contact" class="nav__link">Contact</a>
+            </div>
+            <button class="nav__menu-btn" id="menuBtn" aria-label="Toggle menu">
+                <i data-lucide="menu" class="nav__menu-icon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__inner">
+            <button class="mobile-menu__close" id="menuClose" aria-label="Close menu">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="mobile-menu__links">
+                <a href="#projects" class="mobile-menu__link">Projects</a>
+                <a href="#about" class="mobile-menu__link">About</a>
+                <a href="#experience" class="mobile-menu__link">Experience</a>
+                <a href="#skills" class="mobile-menu__link">Skills</a>
+                <a href="#achievements" class="mobile-menu__link">Achievements</a>
+                <a href="#contact" class="mobile-menu__link">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <!-- ====== HERO ====== -->
+        <section class="hero" id="hero">
+            <div class="hero__layout">
+                <div class="hero__content">
+                    <h1 class="hero__name reveal-up">Saniya Goyal</h1>
+                    <div class="hero__title-row reveal-up" style="--delay: 0.05s">
+                        <p class="hero__title">Software Engineer</p>
+                        <span class="hero__status">
+                            <span class="hero__status-dot"></span>
+                            Available for work
+                        </span>
+                    </div>
+                    <p class="hero__statement reveal-up" style="--delay: 0.1s">
+                        I build backend systems, AI-powered applications, and things that <em>scale</em>. 
+                        Currently interning at Samsung PRISM and Ainoviq — working on LLM-powered 
+                        automation and production-grade AI infrastructure.
+                    </p>
+
+                    <div class="hero__meta reveal-up" style="--delay: 0.15s">
+                        <span class="hero__meta-item">
+                            <i data-lucide="map-pin" class="hero__meta-icon"></i>
+                            India
+                        </span>
+                        <span class="hero__meta-divider">·</span>
+                        <span class="hero__meta-item">
+                            <i data-lucide="graduation-cap" class="hero__meta-icon"></i>
+                            B.Tech CSE · VIT Vellore
+                        </span>
+                    </div>
+
+                    <!-- Social / Action Links -->
+                    <div class="hero__links reveal-up" style="--delay: 0.2s">
+                    <a href="https://drive.google.com/file/d/1SSYm8cXwI9_KcSzOsnBgGv-RpXz_S90V/view?usp=drive_link" target="_blank" rel="noreferrer" class="hero__resume-btn">
+                        <i data-lucide="file-text"></i>
+                        <span>Resume</span>
+                    </a>
+                        <a href="https://github.com/san7iya" target="_blank" rel="noreferrer" class="social-btn" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                        </a>
+                        <a href="https://linkedin.com/in/saniya7goyal" target="_blank" rel="noreferrer" class="social-btn" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        </a>
+                        <a href="https://leetcode.com/u/san7iya/" target="_blank" rel="noreferrer" class="social-btn" aria-label="LeetCode">
+                            <svg viewBox="0 0 24 24"><path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.396.702-1.863l4.332-4.363c.467-.467 1.112-.662 1.824-.662s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.605-2.696c-1.113-1.114-2.73-1.558-4.357-1.558s-3.244.444-4.357 1.558L2.39 10.373c-1.114 1.114-1.558 2.73-1.558 4.358s.444 3.244 1.558 4.358l4.333 4.363c1.114 1.114 2.73 1.558 4.357 1.558s3.244-.444 4.357-1.558l2.697-2.606c.515-.515.497-1.366-.038-1.901-.536-.535-1.387-.553-1.901-.039zM20.811 11.022H11.029c-.767 0-1.391.624-1.391 1.391s.624 1.391 1.391 1.391h9.782c.767 0 1.391-.624 1.391-1.391s-.624-1.391-1.391-1.391z"/></svg>
+                        </a>
+                        <a href="#" class="social-btn copy-email-btn" aria-label="Copy Email">
+                            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pixel Desk Scene — carefully composed workspace -->
+                <div class="pixel-desk reveal-up" style="--delay: 0.25s">
+                    <div class="pixel-desk__shadow" style="position:absolute; left:-10px; bottom:-8px; width:340px; height:24px; background: radial-gradient(ellipse at center, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0) 70%); z-index:-1;"></div>
+                    <div class="pixel-desk__scene">
+
+                        <!-- ── BACK LAYER: desk surface + cables ── -->
+                        <svg width="320" height="30" viewBox="0 0 320 30" style="position:absolute; left:0; bottom:0; z-index:0;" class="pixel-object">
+                            <!-- Desk surface -->
+                            <rect x="0" y="12" width="320" height="18" fill="#d4c4a8" shape-rendering="crispEdges"/>
+                            <rect x="0" y="12" width="320" height="2" fill="#c4b8a4" shape-rendering="crispEdges"/>
+                            <!-- Cable running across -->
+                            <path d="M 60 18 Q 120 28 180 16 T 280 20" fill="none" stroke="#8e8e9a" stroke-width="1.5" opacity="0.25" shape-rendering="crispEdges"/>
+                        </svg>
+
+                        <!-- ── MONITOR (center) ── -->
+                        <svg width="120" height="92" viewBox="0 0 120 92" style="position:absolute; left:95px; top:16px; z-index:2;" class="pixel-object">
+                            <!-- Monitor body -->
+                            <rect x="4" y="0" width="112" height="68" fill="#e2ded4" shape-rendering="crispEdges"/>
+                            <rect x="7" y="3" width="106" height="62" fill="#cdc8be" shape-rendering="crispEdges"/>
+                            <!-- Bezel -->
+                            <rect x="10" y="6" width="100" height="56" fill="#2d3748" shape-rendering="crispEdges"/>
+                            <!-- Screen -->
+                            <rect x="13" y="9" width="94" height="50" fill="#1a1a2e" shape-rendering="crispEdges"/>
+                            <!-- Ambient screen glow -->
+                            <rect x="13" y="9" width="94" height="50" fill="#3d6b4f" opacity="0.04" shape-rendering="crispEdges"/>
+                            
+                            <!-- Screen content -->
+                            <g class="pixel-desk__screen-content">
+                                <text x="16" y="22" font-family="'JetBrains Mono', monospace" font-size="6" fill="#3d6b4f" shape-rendering="crispEdges">&gt; npm run dev</text>
+                                <text x="16" y="32" font-family="'JetBrains Mono', monospace" font-size="5" fill="#5c5c6f" shape-rendering="crispEdges">✓ Compiled successfully.</text>
+                                <text x="16" y="42" font-family="'JetBrains Mono', monospace" font-size="5" fill="#8e8e9a" shape-rendering="crispEdges">Ready on localhost</text>
+                            </g>
+                            
+                            <!-- Stand -->
+                            <rect x="42" y="68" width="36" height="8" fill="#e2ded4" shape-rendering="crispEdges"/>
+                            <rect x="30" y="76" width="60" height="5" fill="#cdc8be" shape-rendering="crispEdges"/>
+                            <rect x="28" y="81" width="64" height="3" fill="#d4c4a8" shape-rendering="crispEdges"/>
+                            
+                            <!-- Power LED -->
+                            <rect x="100" y="70" width="4" height="2" fill="#3d6b4f" shape-rendering="crispEdges"/>
+                        </svg>
+                        
+                        <!-- Blinking cursor on screen -->
+                        <div class="pixel-desk__blink" style="left:196px; top:60px; z-index:3;"></div>
+
+                        <!-- ── STICKY NOTE (on side of monitor, not overlapping screen) ── -->
+                        <div class="pixel-desk__sticky-note" style="position:absolute; left:62px; top:18px; z-index:4; transform: rotate(-4deg); filter: drop-shadow(2px 3px 3px rgba(0,0,0,0.1));">
+                            <svg width="44" height="44" viewBox="0 0 44 44" class="pixel-object">
+                                <rect x="2" y="2" width="40" height="40" fill="#fdf07e" shape-rendering="crispEdges"/>
+                                <rect x="2" y="41" width="40" height="1" fill="#c9be62" shape-rendering="crispEdges"/>
+                                <rect x="41" y="2" width="1" height="40" fill="#e6d970" shape-rendering="crispEdges"/>
+                                <!-- Folded corner -->
+                                <rect x="36" y="2" width="6" height="6" fill="#fcf6c5" shape-rendering="crispEdges"/>
+                                <!-- Text lines -->
+                                <text x="8" y="16" font-family="'JetBrains Mono', monospace" font-size="6" font-weight="bold" fill="#b8860b" shape-rendering="crispEdges">TODO:</text>
+                                <text x="8" y="26" font-family="'JetBrains Mono', monospace" font-size="5" fill="#c9a020" shape-rendering="crispEdges">Ship</text>
+                                <text x="8" y="34" font-family="'JetBrains Mono', monospace" font-size="5" fill="#c9a020" shape-rendering="crispEdges">Portfolio</text>
+                            </svg>
+                        </div>
+
+                        <!-- ── COFFEE MUG (left of monitor) ── -->
+                        <svg width="20" height="22" viewBox="0 0 20 22" style="position:absolute; left:40px; top:88px; z-index:3;" class="pixel-object">
+                            <rect x="3" y="8" width="12" height="14" fill="#c4956a" shape-rendering="crispEdges"/>
+                            <rect x="11" y="8" width="4" height="14" fill="#a47a54" shape-rendering="crispEdges"/>
+                            <rect x="5" y="10" width="8" height="2" fill="#5c3a21" shape-rendering="crispEdges"/>
+                            <!-- Handle -->
+                            <rect x="15" y="10" width="4" height="3" fill="#c4956a" shape-rendering="crispEdges"/>
+                            <rect x="17" y="13" width="2" height="4" fill="#c4956a" shape-rendering="crispEdges"/>
+                            <rect x="15" y="17" width="4" height="2" fill="#c4956a" shape-rendering="crispEdges"/>
+                        </svg>
+                        
+                        <!-- Steam lines -->
+                        <div class="pixel-desk__steam-line" style="left:46px; top:82px; z-index:4;"></div>
+                        <div class="pixel-desk__steam-line" style="left:50px; top:79px; z-index:4;"></div>
+                        <div class="pixel-desk__steam-line" style="left:54px; top:83px; z-index:4;"></div>
+
+                        <!-- ── NOTEBOOK (left side of desk) ── -->
+                        <svg width="36" height="26" viewBox="0 0 36 26" style="position:absolute; left:4px; top:110px; z-index:1;" class="pixel-object">
+                            <rect x="0" y="0" width="32" height="26" fill="#e8dcc8" shape-rendering="crispEdges"/>
+                            <rect x="4" y="6" width="22" height="1" fill="#c4b8a4" shape-rendering="crispEdges"/>
+                            <rect x="4" y="10" width="24" height="1" fill="#c4b8a4" shape-rendering="crispEdges"/>
+                            <rect x="4" y="14" width="18" height="1" fill="#c4b8a4" shape-rendering="crispEdges"/>
+                            <rect x="4" y="18" width="22" height="1" fill="#c4b8a4" shape-rendering="crispEdges"/>
+                            <!-- Spirals -->
+                            <rect x="0" y="4" width="2" height="2" fill="#8e8e9a" shape-rendering="crispEdges"/>
+                            <rect x="0" y="10" width="2" height="2" fill="#8e8e9a" shape-rendering="crispEdges"/>
+                            <rect x="0" y="16" width="2" height="2" fill="#8e8e9a" shape-rendering="crispEdges"/>
+                            <!-- Pen -->
+                            <rect x="28" y="2" width="2" height="20" fill="#1a1a2e" transform="rotate(12 28 2)" shape-rendering="crispEdges"/>
+                        </svg>
+
+                        <!-- ── KEYBOARD (in front of monitor) ── -->
+                        <svg width="100" height="24" viewBox="0 0 100 24" style="position:absolute; left:105px; top:120px; z-index:2;" class="pixel-object">
+                            <rect x="0" y="0" width="100" height="20" rx="2" fill="#d4d0c8" shape-rendering="crispEdges"/>
+                            <!-- Keys row 1 -->
+                            <rect x="4" y="3" width="6" height="5" fill="#bbb7af" shape-rendering="crispEdges"/>
+                            <rect x="12" y="3" width="6" height="5" fill="#bbb7af" shape-rendering="crispEdges"/>
+                            <rect x="20" y="3" width="6" height="5" fill="#bbb7af" shape-rendering="crispEdges"/>
+                            <rect x="28" y="3" width="6" height="5" fill="#bbb7af" shape-rendering="crispEdges"/>
+                            <rect x="36" y="3" width="6" height="5" fill="#bbb7af" shape-rendering="crispEdges"/>
+                            <rect x="44" y="3" width="6" height="5" fill="#bbb7af" shape-rendering="crispEdges"/>
+                            <rect x="52" y="3" width="6" height="5" fill="#bbb7af" shape-rendering="crispEdges"/>
+                            <rect x="60" y="3" width="6" height="5" fill="#bbb7af" shape-rendering="crispEdges"/>
+                            <rect x="68" y="3" width="6" height="5" fill="#bbb7af" shape-rendering="crispEdges"/>
+                            <rect x="76" y="3" width="6" height="5" fill="#bbb7af" shape-rendering="crispEdges"/>
+                            <rect x="84" y="3" width="12" height="5" fill="#bbb7af" shape-rendering="crispEdges"/>
+                            <!-- Keys row 2 -->
+                            <rect x="4" y="10" width="10" height="5" fill="#c5c1b9" shape-rendering="crispEdges"/>
+                            <rect x="16" y="10" width="6" height="5" fill="#c5c1b9" shape-rendering="crispEdges"/>
+                            <rect x="24" y="10" width="6" height="5" fill="#c5c1b9" shape-rendering="crispEdges"/>
+                            <rect x="32" y="10" width="40" height="5" fill="#c5c1b9" shape-rendering="crispEdges"/>
+                            <rect x="74" y="10" width="6" height="5" fill="#c5c1b9" shape-rendering="crispEdges"/>
+                            <rect x="82" y="10" width="14" height="5" fill="#c5c1b9" shape-rendering="crispEdges"/>
+                        </svg>
+
+                        <!-- ── PLANT (right side, behind) ── -->
+                        <svg width="28" height="38" viewBox="0 0 28 38" style="position:absolute; left:260px; top:44px; z-index:2;" class="pixel-object">
+                            <!-- Pot -->
+                            <rect x="8" y="26" width="12" height="12" fill="#c4956a" shape-rendering="crispEdges"/>
+                            <rect x="6" y="23" width="16" height="3" fill="#d4a574" shape-rendering="crispEdges"/>
+                            <!-- Leaves (animated sway) -->
+                            <g class="pixel-desk__plant-leaves">
+                                <rect x="12" y="12" width="4" height="12" fill="#3d6b4f" shape-rendering="crispEdges"/>
+                                <rect x="6" y="6" width="4" height="10" fill="#4a7d5e" shape-rendering="crispEdges"/>
+                                <rect x="18" y="8" width="4" height="12" fill="#4a7d5e" shape-rendering="crispEdges"/>
+                                <rect x="10" y="2" width="3" height="8" fill="#5a9e6f" shape-rendering="crispEdges"/>
+                                <rect x="20" y="14" width="3" height="6" fill="#5a9e6f" shape-rendering="crispEdges"/>
+                            </g>
+                        </svg>
+
+                        <!-- ── HEADPHONES (right, leaning against plant pot) ── -->
+                        <svg width="26" height="26" viewBox="0 0 26 26" style="position:absolute; left:248px; top:98px; z-index:1;" class="pixel-object">
+                            <path d="M 5 13 Q 13 1 21 13" fill="none" stroke="#2d3748" stroke-width="2" shape-rendering="crispEdges"/>
+                            <rect x="3" y="13" width="6" height="10" rx="3" fill="#1a1a2e" shape-rendering="crispEdges"/>
+                            <rect x="17" y="13" width="6" height="10" rx="3" fill="#1a1a2e" shape-rendering="crispEdges"/>
+                            <rect x="1" y="14" width="2" height="8" fill="#5c5c6f" shape-rendering="crispEdges"/>
+                            <rect x="23" y="14" width="2" height="8" fill="#5c5c6f" shape-rendering="crispEdges"/>
+                        </svg>
+
+                        <!-- ── FLOPPY DISK (on desk, left-center) ── -->
+                        <svg width="18" height="18" viewBox="0 0 18 18" style="position:absolute; left:66px; top:116px; z-index:2;" class="pixel-object">
+                            <rect x="0" y="0" width="18" height="18" fill="#1a1a2e" shape-rendering="crispEdges"/>
+                            <!-- Metal slider -->
+                            <rect x="6" y="0" width="6" height="5" fill="#8e8e9a" shape-rendering="crispEdges"/>
+                            <rect x="8" y="1" width="2" height="3" fill="#1a1a2e" shape-rendering="crispEdges"/>
+                            <!-- Label area -->
+                            <rect x="3" y="9" width="12" height="8" fill="#e8dcc8" shape-rendering="crispEdges"/>
+                            <rect x="4" y="11" width="10" height="1" fill="#c4b8a4" shape-rendering="crispEdges"/>
+                            <rect x="4" y="13" width="7" height="1" fill="#c4b8a4" shape-rendering="crispEdges"/>
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ====== PROJECTS ====== -->
+        <section class="section" id="projects">
+            <div class="section__label">
+                <span class="section__label-index">01</span>
+                <span class="section__label-text">selected work</span>
+            </div>
+
+            <div class="projects">
+                <!-- Project 1: Fintech Fraud Detection -->
+                <article class="project-card reveal-up" id="project-fintech">
+                    <div class="project-card__header">
+                        <!-- Pixel Icon: Subdued Watermark -->
+                        <svg width="24" height="24" viewBox="0 0 32 32" class="project-card__stamp">
+                            <rect x="8" y="4" width="16" height="24" fill="currentColor" rx="1" shape-rendering="crispEdges"/>
+                            <rect x="10" y="6" width="12" height="8" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <!-- Screen graph line -->
+                            <rect x="12" y="10" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="14" y="8" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="16" y="10" width="4" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <!-- Keypad -->
+                            <rect x="10" y="16" width="3" height="2" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <rect x="14.5" y="16" width="3" height="2" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <rect x="19" y="16" width="3" height="2" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <rect x="10" y="19" width="3" height="2" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <rect x="14.5" y="19" width="3" height="2" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <rect x="19" y="19" width="3" height="2" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <rect x="10" y="22" width="3" height="2" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <rect x="14.5" y="22" width="3" height="2" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <!-- Card slot -->
+                            <rect x="6" y="8" width="2" height="12" fill="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+                        <span class="project-card__tag">Serverless · Mobile</span>
+                    </div>
+                    <h3 class="project-card__title">Fintech Fraud Detection System</h3>
+                    <p class="project-card__desc">
+                        A serverless fraud detection backend that evaluates login risk from geolocation 
+                        and timestamp data. Uses the Haversine formula to flag impossible-travel events — 
+                        if a user logs in from Delhi and then Bangalore 20 minutes later, the system 
+                        triggers SNS alerts and blocks the session.
+                    </p>
+
+                    <div class="project-card__detail">
+                        <button class="project-card__expand-btn" aria-expanded="false">
+                            <span style="color:var(--accent); font-weight:bold;">&gt;</span>
+                            <span>cat architecture_and_implementation.md</span>
+                        </button>
+                        <div class="project-card__expandable">
+                            <div class="project-card__log">
+                                <div class="project-card__log-line">
+                                    <span class="log-key">architecture:</span>
+                                    <span class="log-val">Mobile Client ➔ API Gateway ➔ Lambda ➔ DynamoDB ➔ SNS</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">core_logic:</span>
+                                    <span class="log-val">Computes Haversine distance on auth. Flags impossible-travel deltas.</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">decisions:</span>
+                                    <span class="log-val">Supabase Auth (OTP) + Expo Local Auth (Biometric)</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">trade_offs:</span>
+                                    <span class="log-val">Used DynamoDB single-table design. Optimized for risk engine latency (sub-second) over relational querying.</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">lessons_learned:</span>
+                                    <span class="log-val">Strict least-privilege IAM roles are painful to write but crucial to limit Lambda blast radius.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card__meta">
+                        <div class="project-card__stack">
+                            <span class="pill">React Native</span>
+                            <span class="pill">TypeScript</span>
+                            <span class="pill">AWS Lambda</span>
+                            <span class="pill">DynamoDB</span>
+                        </div>
+                    </div>
+                    <div class="project-card__footer">
+                        <span class="project-card__impact">
+                            <i data-lucide="zap" class="project-card__impact-icon"></i>
+                            Serverless risk engine with geospatial anomaly detection
+                        </span>
+                        <div class="project-card__links">
+                            <a href="https://github.com/san7iya/SatyenClient" target="_blank" rel="noreferrer" class="project-card__link" aria-label="Source code">
+                                <i data-lucide="github"></i>
+                                <span>Source</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: NoteBoost (Threat Dashboard) -->
+                <article class="project-card reveal-up" style="--delay: 0.06s" id="project-noteboost">
+                    <div class="project-card__header">
+                        <!-- Pixel Icon: Subdued Watermark Radar -->
+                        <svg width="24" height="24" viewBox="0 0 32 32" class="project-card__stamp">
+                            <rect x="6" y="6" width="20" height="20" fill="currentColor" rx="10" shape-rendering="crispEdges"/>
+                            <circle cx="16" cy="16" r="8" fill="none" stroke="var(--bg-elevated)" stroke-width="1" opacity="0.6" shape-rendering="crispEdges"/>
+                            <circle cx="16" cy="16" r="4" fill="none" stroke="var(--bg-elevated)" stroke-width="1" opacity="0.4" shape-rendering="crispEdges"/>
+                            <path d="M 16 16 L 24 8 A 11.3 11.3 0 0 1 24 24 Z" fill="var(--bg-elevated)" opacity="0.4" shape-rendering="crispEdges"/>
+                            <rect x="20" y="10" width="2" height="2" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                        </svg>
+                        <span class="project-card__tag">Full-Stack · AI</span>
+                    </div>
+                    <h3 class="project-card__title">NoteBoost — Threat Monitoring Dashboard</h3>
+                    <p class="project-card__desc">
+                        A threat intelligence dashboard that ingests social media data and prioritizes alerts 
+                        using a custom Sentiment–Velocity–Evidence (SVE) scoring model. High-risk alerts 
+                        are validated through Gemini 2.0 Flash, returning confidence-scored incident summaries.
+                    </p>
+
+                    <div class="project-card__detail">
+                        <button class="project-card__expand-btn" aria-expanded="false">
+                            <span style="color:var(--accent); font-weight:bold;">&gt;</span>
+                            <span>cat architecture_and_implementation.md</span>
+                        </button>
+                        <div class="project-card__expandable">
+                            <div class="project-card__log">
+                                <div class="project-card__log-line">
+                                    <span class="log-key">architecture:</span>
+                                    <span class="log-val">Data Ingestion ➔ SVE Scoring Engine ➔ Gemini 2.0 ➔ FastAPI ➔ Next.js</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">decisions:</span>
+                                    <span class="log-val">Developed SVE scoring model from scratch rather than relying purely on LLM classification to reduce latency. Only high-risk alerts trigger expensive LLM validation.</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">trade_offs:</span>
+                                    <span class="log-val">Streaming LLM responses to frontend increases parsing complexity but improves perceived performance over waiting for full JSON.</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">lessons_learned:</span>
+                                    <span class="log-val">Building scoring models manually taught me noise filtering. Prompt engineering heavily focused on reducing hallucination in security contexts.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card__meta">
+                        <div class="project-card__stack">
+                            <span class="pill">FastAPI</span>
+                            <span class="pill">Next.js 14</span>
+                            <span class="pill">Gemini 2.0</span>
+                            <span class="pill">Python</span>
+                        </div>
+                    </div>
+                    <div class="project-card__footer">
+                        <span class="project-card__impact">
+                            <i data-lucide="zap" class="project-card__impact-icon"></i>
+                            &lt;500ms API response · Custom SVE scoring engine
+                        </span>
+                        <div class="project-card__links">
+                            <a href="https://github.com/san7iya/NoteBoost" target="_blank" rel="noreferrer" class="project-card__link" aria-label="Source code">
+                                <i data-lucide="github"></i>
+                                <span>Source</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: Intelligent Hardwater Management System -->
+                <article class="project-card reveal-up" style="--delay: 0.12s" id="project-hardwater">
+                    <div class="project-card__header">
+                        <!-- Pixel Icon: Subdued Watermark Nodes -->
+                        <svg width="24" height="24" viewBox="0 0 32 32" class="project-card__stamp">
+                            <rect x="14" y="6" width="4" height="4" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="6" y="16" width="4" height="4" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="22" y="16" width="4" height="4" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="14" y="24" width="4" height="4" fill="currentColor" shape-rendering="crispEdges"/>
+                            <path d="M 16 10 L 8 16" fill="none" stroke="currentColor" stroke-width="1" shape-rendering="crispEdges"/>
+                            <path d="M 16 10 L 24 16" fill="none" stroke="currentColor" stroke-width="1" shape-rendering="crispEdges"/>
+                            <path d="M 8 20 L 16 24" fill="none" stroke="currentColor" stroke-width="1" shape-rendering="crispEdges"/>
+                            <path d="M 24 20 L 16 24" fill="none" stroke="currentColor" stroke-width="1" shape-rendering="crispEdges"/>
+                        </svg>
+                        <span class="project-card__tag">ML · IoT</span>
+                    </div>
+                    <h3 class="project-card__title">Intelligent Hardwater Management System</h3>
+                    <p class="project-card__desc">
+                        A machine learning pipeline predicting water hardness levels using Random Forest, 
+                        ARIMA, and LSTM models. Features NLP-based complaint classification and anomaly 
+                        detection to transition maintenance from reactive to predictive.
+                    </p>
+
+                    <div class="project-card__detail">
+                        <button class="project-card__expand-btn" aria-expanded="false">
+                            <span style="color:var(--accent); font-weight:bold;">&gt;</span>
+                            <span>cat architecture_and_implementation.md</span>
+                        </button>
+                        <div class="project-card__expandable">
+                            <div class="project-card__log">
+                                <div class="project-card__log-line">
+                                    <span class="log-key">architecture:</span>
+                                    <span class="log-val">Sensor Data ➔ Preprocessing ➔ [RF + ARIMA + LSTM] ➔ Streamlit UI</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">decisions:</span>
+                                    <span class="log-val">Integrated an NLP module to triage unstructured user complaints, categorizing service requests into equipment failure vs. water quality issues.</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">trade_offs:</span>
+                                    <span class="log-val">Balanced deep learning (LSTM) accuracy with stakeholder explainability. RF and ARIMA provided interpretable baselines.</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">lessons_learned:</span>
+                                    <span class="log-val">Evaluated fundamentally different ML architectures on the same time-series problem. Emphasized data imputation for IoT sensor noise.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card__meta">
+                        <div class="project-card__stack">
+                            <span class="pill">Python</span>
+                            <span class="pill">TensorFlow</span>
+                            <span class="pill">LSTM / ARIMA</span>
+                            <span class="pill">Streamlit</span>
+                        </div>
+                    </div>
+                    <div class="project-card__footer">
+                        <span class="project-card__impact">
+                            <i data-lucide="zap" class="project-card__impact-icon"></i>
+                            Multi-model predictive ML pipeline
+                        </span>
+                        <div class="project-card__links">
+                            <a href="https://github.com/san7iya/intelligent-hardwater-system" target="_blank" rel="noreferrer" class="project-card__link" aria-label="Source code">
+                                <i data-lucide="github"></i>
+                                <span>Source</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4: E-Learning Platform -->
+                <article class="project-card reveal-up" style="--delay: 0.18s" id="project-elearning">
+                    <div class="project-card__header">
+                        <!-- Pixel Icon: Subdued Watermark Laptop -->
+                        <svg width="24" height="24" viewBox="0 0 32 32" class="project-card__stamp">
+                            <rect x="8" y="10" width="16" height="10" fill="currentColor" rx="1" shape-rendering="crispEdges"/>
+                            <rect x="9" y="11" width="14" height="8" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <rect x="6" y="20" width="20" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="14" y="20" width="4" height="1" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <!-- Code brackets on screen -->
+                            <rect x="11" y="13" width="2" height="4" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="19" y="13" width="2" height="4" fill="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+                        <span class="project-card__tag">Full-Stack · Web</span>
+                    </div>
+                    <h3 class="project-card__title">E-Learning Platform</h3>
+                    <p class="project-card__desc">
+                        A full-stack web application for online course management with robust user authentication, 
+                        course creation, and structured content delivery backed by a normalized PostgreSQL schema.
+                    </p>
+
+                    <div class="project-card__detail">
+                        <button class="project-card__expand-btn" aria-expanded="false">
+                            <span style="color:var(--accent); font-weight:bold;">&gt;</span>
+                            <span>cat architecture_and_implementation.md</span>
+                        </button>
+                        <div class="project-card__expandable">
+                            <div class="project-card__log">
+                                <div class="project-card__log-line">
+                                    <span class="log-key">architecture:</span>
+                                    <span class="log-val">React SPA ➔ Express API Middleware ➔ JWT Auth ➔ PostgreSQL</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">decisions:</span>
+                                    <span class="log-val">Chose raw PostgreSQL with strict foreign key constraints over a NoSQL document store to guarantee data integrity between users, enrollments, and courses.</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">trade_offs:</span>
+                                    <span class="log-val">Writing raw SQL increases boilerplate but provided a deeper understanding of relational mechanics compared to relying on an ORM.</span>
+                                </div>
+                                <div class="project-card__log-line">
+                                    <span class="log-key">lessons_learned:</span>
+                                    <span class="log-val">Writing efficient SQL queries with complex JOINs. Solidified my understanding of normalization and managing auth middleware correctly.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card__meta">
+                        <div class="project-card__stack">
+                            <span class="pill">React</span>
+                            <span class="pill">Node.js</span>
+                            <span class="pill">Express</span>
+                            <span class="pill">PostgreSQL</span>
+                        </div>
+                    </div>
+                    <div class="project-card__footer">
+                        <span class="project-card__impact">
+                            <i data-lucide="zap" class="project-card__impact-icon"></i>
+                            Relational schema design + API-first architecture
+                        </span>
+                        <div class="project-card__links">
+                            <a href="https://github.com/san7iya/e-learning-platform" target="_blank" rel="noreferrer" class="project-card__link" aria-label="Source code">
+                                <i data-lucide="github"></i>
+                                <span>Source</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ====== ABOUT ====== -->
+        <section class="section" id="about">
+            <div class="section__label">
+                <span class="section__label-index">02</span>
+                <span class="section__label-text">about</span>
+            </div>
+
+            <div class="about reveal-up">
+                <div class="about__content">
+                    <p class="about__lead">
+                        I'm a software engineer interested in <em>backend systems</em>, cloud-native 
+                        architecture, and building AI-powered applications that solve real problems.
+                    </p>
+                    <p class="about__body">
+                        I'm currently a fourth-year B.Tech student at <strong>VIT Vellore</strong>, 
+                        interning concurrently at <strong>Samsung PRISM</strong> (building an LLM-driven 
+                        browser automation framework) and <strong>Ainoviq</strong> (building a full-stack 
+                        RAG application for medical document querying). Before that, I worked at 
+                        <strong>DRDO</strong> on quantum circuit splitting using Qiskit.
+                    </p>
+                    <p class="about__body">
+                        What I enjoy most is the engineering behind the system — designing database schemas 
+                        that handle the actual access patterns, writing IAM policies that follow least-privilege, 
+                        debugging why an LLM prompt returns inconsistent results, and figuring out how to 
+                        chunk documents so retrieval quality stays high. I care about building software 
+                        that's reliable, well-structured, and doesn't require a walkthrough to maintain.
+                    </p>
+                    <p class="about__body about__body--muted">
+                        Outside of work, I'm usually solving problems on LeetCode, reading about distributed 
+                        systems, or trying to understand how production infrastructure actually runs at scale.
+                    </p>
+                </div>
+
+                <div class="about__aside">
+
+                    <div class="about__stat">
+                        <span class="about__stat-value">3</span>
+                        <span class="about__stat-label">Research & industry internships</span>
+                    </div>
+                    <div class="about__stat">
+                        <span class="about__stat-value">100+</span>
+                        <span class="about__stat-label">LeetCode problems solved</span>
+                    </div>
+                    <div class="about__stat">
+                        <span class="about__stat-value">8.66</span>
+                        <span class="about__stat-label">CGPA · VIT Vellore</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ====== EXPERIENCE ====== -->
+        <section class="section" id="experience">
+            <div class="section__label">
+                <span class="section__label-index">03</span>
+                <span class="section__label-text">experience</span>
+            </div>
+
+            <div class="timeline">
+                <!-- Samsung PRISM -->
+                <div class="timeline__item reveal-up">
+                    <div class="timeline__marker">
+                        <div class="timeline__dot timeline__dot--active"></div>
+                        <div class="timeline__line"></div>
+                    </div>
+                    <div class="timeline__content">
+                        <!-- Tiny monochromatic pixel stamp: Browser Window -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="timeline__pixel-icon">
+                            <rect x="2" y="4" width="20" height="16" fill="none" stroke="currentColor" stroke-width="1" rx="1" shape-rendering="crispEdges"/>
+                            <rect x="2" y="4" width="20" height="4" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="4" y="5" width="2" height="2" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                            <rect x="7" y="5" width="2" height="2" fill="var(--bg-elevated)" shape-rendering="crispEdges"/>
+                        </svg>
+
+                        <div class="timeline__header">
+                            <h3 class="timeline__title">R&D Intern</h3>
+                            <span class="timeline__date">
+                                <span class="timeline__date-current">Current</span>
+                                <i data-lucide="calendar" class="timeline__date-icon"></i>
+                                Jun 2026 — Present
+                            </span>
+                        </div>
+                        <div class="timeline__company">
+                            <i data-lucide="building-2" class="timeline__company-icon"></i>
+                            Samsung PRISM
+                        </div>
+                        <p class="timeline__desc">
+                            Developing a browser automation framework using Playwright that integrates 
+                            LLM-based planning with browser interactions. The system automates multi-step 
+                            web workflows by decomposing tasks into executable browser actions. Designing 
+                            a memory layer that stores successful execution traces and retrieves similar 
+                            workflows to reduce repeated LLM planning for recurring tasks.
+                        </p>
+                        <div class="timeline__stack">
+                            <span class="pill">Playwright</span>
+                            <span class="pill">LLMs</span>
+                            <span class="pill">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ainoviq -->
+                <div class="timeline__item reveal-up" style="--delay: 0.06s">
+                    <div class="timeline__marker">
+                        <div class="timeline__dot timeline__dot--active"></div>
+                        <div class="timeline__line"></div>
+                    </div>
+                    <div class="timeline__content">
+                        <!-- Tiny monochromatic pixel stamp: Medical Document -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="timeline__pixel-icon">
+                            <rect x="4" y="2" width="16" height="20" fill="none" stroke="currentColor" stroke-width="1" shape-rendering="crispEdges"/>
+                            <rect x="8" y="6" width="8" height="1" fill="currentColor" shape-rendering="crispEdges"/>
+                            <!-- Medical Cross -->
+                            <rect x="11" y="10" width="2" height="6" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="9" y="12" width="6" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+
+                        <div class="timeline__header">
+                            <h3 class="timeline__title">Full Stack AI Intern</h3>
+                            <span class="timeline__date">
+                                <span class="timeline__date-current">Current</span>
+                                <i data-lucide="calendar" class="timeline__date-icon"></i>
+                                Jun 2026 — Present
+                            </span>
+                        </div>
+                        <div class="timeline__company">
+                            <i data-lucide="building-2" class="timeline__company-icon"></i>
+                            Ainoviq · Remote
+                        </div>
+                        <p class="timeline__desc">
+                            Building a full-stack RAG application that indexes OCR-processed medical 
+                            documents into ChromaDB and retrieves relevant context for LLM-assisted 
+                            querying. Built the document ingestion pipeline — drag-and-drop upload, 
+                            OCR extraction via Azure AI Vision, semantic chunking, and vector indexing 
+                            into ChromaDB for retrieval.
+                        </p>
+                        <div class="timeline__stack">
+                            <span class="pill">RAG</span>
+                            <span class="pill">ChromaDB</span>
+                            <span class="pill">Azure AI Vision</span>
+                            <span class="pill">LangChain.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DRDO -->
+                <div class="timeline__item reveal-up" style="--delay: 0.12s">
+                    <div class="timeline__marker">
+                        <div class="timeline__dot"></div>
+                    </div>
+                    <div class="timeline__content">
+                        <!-- Tiny monochromatic pixel stamp: Quantum Atom -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="timeline__pixel-icon">
+                            <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2 2" shape-rendering="crispEdges"/>
+                            <rect x="11" y="11" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="4" y="11" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="18" y="11" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+
+                        <div class="timeline__header">
+                            <h3 class="timeline__title">Quantum Research Intern</h3>
+                            <span class="timeline__date">
+                                <i data-lucide="calendar" class="timeline__date-icon"></i>
+                                May 2026 — Jun 2026
+                            </span>
+                        </div>
+                        <div class="timeline__company">
+                            <i data-lucide="building-2" class="timeline__company-icon"></i>
+                            Defence Research and Development Organisation (DRDO)
+                        </div>
+                        <p class="timeline__desc">
+                            Implemented a circuit-cutting technique in Qiskit to split large quantum circuits 
+                            into smaller independent subcircuits, enabling execution on hardware with limited 
+                            qubit capacity. Benchmarked on real IBM quantum hardware — reconstructed the 
+                            original circuit output within 0.3% accuracy (0.879 vs. 0.882), demonstrating 
+                            robustness under real-device noise.
+                        </p>
+                        <div class="timeline__stack">
+                            <span class="pill">Qiskit</span>
+                            <span class="pill">Python</span>
+                            <span class="pill">IBM Quantum</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ====== SKILLS INVENTORY ====== -->
+        <section class="section" id="skills">
+            <div class="section__label">
+                <span class="section__label-index">04</span>
+                <span class="section__label-text">engineering inventory</span>
+            </div>
+
+            <!-- Redesigned clean inventory list -->
+            <div class="skills-inventory reveal-up">
+                
+                <div class="inventory-row">
+                    <div class="inventory-row__header">
+                        <!-- Pixel Code Bracket -->
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="inventory-row__icon">
+                            <path d="M 6 3 L 3 8 L 6 13 M 10 3 L 13 8 L 10 13" fill="none" stroke="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+                        <span class="inventory-row__title">Languages</span>
+                    </div>
+                    <div class="inventory-row__items">
+                        <span class="inventory-row__item">Python</span>
+                        <span class="inventory-row__item">TypeScript</span>
+                        <span class="inventory-row__item">JavaScript</span>
+                        <span class="inventory-row__item">Java</span>
+                        <span class="inventory-row__item">SQL</span>
+                    </div>
+                </div>
+
+                <div class="inventory-row">
+                    <div class="inventory-row__header">
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="inventory-row__icon">
+                            <rect x="2" y="2" width="12" height="12" fill="none" stroke="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="5" y="5" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="9" y="5" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="5" y="9" width="6" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+                        <span class="inventory-row__title">AI / ML</span>
+                    </div>
+                    <div class="inventory-row__items">
+                        <span class="inventory-row__item">RAG Pipelines</span>
+                        <span class="inventory-row__item">LLM Integration</span>
+                        <span class="inventory-row__item">Prompt Engineering</span>
+                        <span class="inventory-row__item">Vector DBs</span>
+                        <span class="inventory-row__item">OCR</span>
+                    </div>
+                </div>
+
+                <div class="inventory-row">
+                    <div class="inventory-row__header">
+                        <!-- Pixel Server -->
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="inventory-row__icon">
+                            <rect x="2" y="3" width="12" height="4" fill="none" stroke="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="2" y="9" width="12" height="4" fill="none" stroke="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="4" y="5" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="7" y="5" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="4" y="11" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="7" y="11" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+                        <span class="inventory-row__title">Backend</span>
+                    </div>
+                    <div class="inventory-row__items">
+                        <span class="inventory-row__item">Node.js</span>
+                        <span class="inventory-row__item">Express.js</span>
+                        <span class="inventory-row__item">FastAPI</span>
+                        <span class="inventory-row__item">LangChain.js</span>
+                    </div>
+                </div>
+
+                <div class="inventory-row">
+                    <div class="inventory-row__header">
+                        <!-- Pixel Cloud -->
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="inventory-row__icon">
+                            <path d="M 4 11 L 13 11 M 3 10 L 3 8 L 5 8 L 5 5 L 10 5 L 10 7 L 13 7 L 13 10" fill="none" stroke="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+                        <span class="inventory-row__title">Cloud & Infra</span>
+                    </div>
+                    <div class="inventory-row__items">
+                        <span class="inventory-row__item">AWS Lambda</span>
+                        <span class="inventory-row__item">API Gateway</span>
+                        <span class="inventory-row__item">IAM</span>
+                        <span class="inventory-row__item">KMS</span>
+                        <span class="inventory-row__item">SNS</span>
+                    </div>
+                </div>
+
+                <div class="inventory-row">
+                    <div class="inventory-row__header">
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="inventory-row__icon">
+                            <ellipse cx="8" cy="6" rx="5" ry="2" fill="none" stroke="currentColor" shape-rendering="crispEdges"/>
+                            <path d="M 3 6 L 3 10 A 5 2 0 0 0 13 10 L 13 6" fill="none" stroke="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+                        <span class="inventory-row__title">Databases</span>
+                    </div>
+                    <div class="inventory-row__items">
+                        <span class="inventory-row__item">PostgreSQL</span>
+                        <span class="inventory-row__item">DynamoDB</span>
+                        <span class="inventory-row__item">ChromaDB</span>
+                    </div>
+                </div>
+
+                <div class="inventory-row">
+                    <div class="inventory-row__header">
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="inventory-row__icon">
+                            <rect x="2" y="3" width="12" height="10" fill="none" stroke="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="2" y="3" width="12" height="3" fill="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+                        <span class="inventory-row__title">Frontend</span>
+                    </div>
+                    <div class="inventory-row__items">
+                        <span class="inventory-row__item">React</span>
+                        <span class="inventory-row__item">Next.js</span>
+                        <span class="inventory-row__item">React Native</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ====== ACHIEVEMENTS ====== -->
+        <section class="section" id="achievements">
+            <div class="section__label">
+                <span class="section__label-index">05</span>
+                <span class="section__label-text">leadership & achievements</span>
+            </div>
+
+            <!-- Refined visual hierarchy -->
+            <div class="achievements reveal-up">
+                
+                <!-- Primary Achievement -->
+                <div class="achievement achievement--primary">
+                    <div class="achievement__icon-wrap">
+                        <!-- Pixel Users Icon -->
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="achievement__icon" style="color: var(--text-muted);">
+                            <rect x="2" y="6" width="4" height="4" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="1" y="11" width="6" height="3" fill="none" stroke="currentColor" stroke-width="1" shape-rendering="crispEdges"/>
+                            <rect x="8" y="5" width="4" height="4" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="7" y="10" width="6" height="4" fill="none" stroke="currentColor" stroke-width="1" shape-rendering="crispEdges"/>
+                        </svg>
+                    </div>
+                    <div class="achievement__content">
+                        <h3 class="achievement__title">Events Head — ISTE, VIT Vellore</h3>
+                        <span class="achievement__date">Mar 2025 — Apr 2026</span>
+                        <p class="achievement__desc">
+                            Led an 80-member team to organise 15 technical workshops and a 24-hour hackathon, 
+                            reaching 1,000+ participants. Managed end-to-end planning, logistics, budgets, 
+                            and on-ground execution across all events.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Secondary Achievement -->
+                <div class="achievement achievement--secondary" style="margin-top: 12px;">
+                    <div class="achievement__icon-wrap">
+                        <!-- Pixel Terminal Icon -->
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="achievement__icon" style="color: var(--text-muted);">
+                            <rect x="2" y="3" width="12" height="10" fill="none" stroke="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="4" y="5" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="6" y="7" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="4" y="9" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="9" y="9" width="3" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+                    </div>
+                    <div class="achievement__content">
+                        <h3 class="achievement__title">LeetCode — 100+ Problems Solved</h3>
+                        <span class="achievement__date">Rating: 1436</span>
+                        <a href="https://leetcode.com/u/san7iya/" target="_blank" rel="noreferrer" class="achievement__link">
+                            <span>View profile</span>
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Secondary Achievement -->
+                <div class="achievement achievement--secondary">
+                    <div class="achievement__icon-wrap">
+                        <!-- Pixel Ribbon/Award Icon -->
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="achievement__icon" style="color: var(--text-muted);">
+                            <circle cx="8" cy="6" r="4" fill="none" stroke="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="7" y="5" width="2" height="2" fill="currentColor" shape-rendering="crispEdges"/>
+                            <!-- Ribbons -->
+                            <rect x="5" y="10" width="2" height="4" fill="currentColor" shape-rendering="crispEdges"/>
+                            <rect x="9" y="10" width="2" height="4" fill="currentColor" shape-rendering="crispEdges"/>
+                        </svg>
+                    </div>
+                    <div class="achievement__content">
+                        <h3 class="achievement__title">Foundations of Cybersecurity</h3>
+                        <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 6px;">
+                            <span class="achievement__date" style="margin-bottom: 0;">Google · Coursera</span>
+                            <span class="pill" style="font-size: 10.5px; padding: 2px 8px; border-radius: 4px;">Certificate</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ====== CONTACT ====== -->
+        <footer class="footer" id="contact">
+            <div class="section__label">
+                <span class="section__label-index">06</span>
+                <span class="section__label-text">get in touch</span>
+            </div>
+
+            <div class="footer__content reveal-up">
+                <h2 class="footer__heading">Let's build something.</h2>
+                <p class="footer__sub">
+                    Looking for SDE roles where I can work on systems that matter. 
+                    Happy to talk engineering, internships, or interesting problems.
+                </p>
+                
+                <a href="#" class="footer__note footer__note--interactive copy-email-btn" style="text-decoration: none;">
+                    Thanks for stopping by my workspace. Let's talk.
+                    <!-- Pixel Mailbox to close the narrative -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" class="footer__pixel-mailbox">
+                        <rect x="11" y="14" width="2" height="10" fill="currentColor" shape-rendering="crispEdges"/>
+                        <rect x="4" y="6" width="16" height="8" fill="none" stroke="currentColor" stroke-width="2" shape-rendering="crispEdges"/>
+                        <rect x="16" y="6" width="4" height="8" fill="currentColor" shape-rendering="crispEdges"/>
+                        <rect x="2" y="2" width="2" height="6" fill="currentColor" shape-rendering="crispEdges"/>
+                    </svg>
+                </a>
+
+                <!-- Footer Socials using the new .social-btn system -->
+                <div class="hero__links">
+                    <a href="https://drive.google.com/file/d/1SSYm8cXwI9_KcSzOsnBgGv-RpXz_S90V/view?usp=drive_link" target="_blank" rel="noreferrer" class="hero__resume-btn">
+                        <i data-lucide="file-text"></i>
+                        <span>Resume</span>
+                    </a>
+                    <a href="https://github.com/san7iya" target="_blank" rel="noreferrer" class="social-btn" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/saniya7goyal" target="_blank" rel="noreferrer" class="social-btn" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://leetcode.com/u/san7iya/" target="_blank" rel="noreferrer" class="social-btn" aria-label="LeetCode">
+                        <svg viewBox="0 0 24 24"><path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.396.702-1.863l4.332-4.363c.467-.467 1.112-.662 1.824-.662s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.605-2.696c-1.113-1.114-2.73-1.558-4.357-1.558s-3.244.444-4.357 1.558L2.39 10.373c-1.114 1.114-1.558 2.73-1.558 4.358s.444 3.244 1.558 4.358l4.333 4.363c1.114 1.114 2.73 1.558 4.357 1.558s3.244-.444 4.357-1.558l2.697-2.606c.515-.515.497-1.366-.038-1.901-.536-.535-1.387-.553-1.901-.039zM20.811 11.022H11.029c-.767 0-1.391.624-1.391 1.391s.624 1.391 1.391 1.391h9.782c.767 0 1.391-.624 1.391-1.391s-.624-1.391-1.391-1.391z"/></svg>
+                    </a>
+                    <a href="#" class="social-btn copy-email-btn" aria-label="Copy Email">
+                        <svg viewBox="0 0 24 24"><path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <span class="footer__copyright">© 2026 Saniya Goyal</span>
+                <span class="footer__location">
+                    <i data-lucide="map-pin" class="footer__location-icon"></i>
+                    India
+                </span>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
