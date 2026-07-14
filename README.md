@@ -4,7 +4,7 @@ A minimalist, highly interactive engineering portfolio built with a focus on typ
 
 ## 🚀 Live Demo
 
-[saniya-portfolio.vercel.app](https://saniya-portfolio.vercel.app) *(assuming default Vercel routing)*
+[saniya-goyal.vercel.app](https://saniya-goyal.vercel.app) 
 
 ## ✨ Features
 
